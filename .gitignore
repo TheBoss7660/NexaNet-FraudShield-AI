@@ -1,0 +1,55 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Conda environment folders
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.npz
+
+# Reports generated during experiments
+reports/figures/*
+reports/experiments/*
+!reports/figures/.gitkeep
+!reports/experiments/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
